@@ -1,5 +1,5 @@
 <script setup>
-  import { onMounted, ref, computed, reactive, watch } from 'vue';
+  import { onMounted, ref, reactive, watch } from 'vue';
   import axios from 'axios'
   import {inject} from 'vue'
   import CardList from '../components/CardList.vue'

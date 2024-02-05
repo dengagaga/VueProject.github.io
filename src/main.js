@@ -10,7 +10,7 @@ import home from './pages/home.vue'
 const app = createApp(App)
 const routes = [
     {path:'/favorite', name: 'favorite', component: favorite},
-    {path:'/', name: 'home', component: home},
+    {path:'/VueProject.github.io', name: 'home', component: home},
 ]
 const router = createRouter({
     history: createWebHistory(),
