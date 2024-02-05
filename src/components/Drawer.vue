@@ -22,7 +22,7 @@
                     <img src="/krest.svg" alt="" @click="closeDrawer">
                 </div>
                 
-                    <infoBlock v-if="!totalPriceKorz || orderSS" title="Корзина пустая" description="Добавьте хотя бы одну пару кроссовок, чтобы сделать заказ." image-url="/corzina.png"/>
+                    <infoBlock v-if="!totalPriceKorz || orderSS" title="Корзина пустая" description="Добавьте хотя бы одну пару кроссовок, чтобы сделать заказ." image-url="/VueProject.github.io/corzina.png"/>
                     <infoBlock v-if="orderSS" title="Заказ оформле" description="Ваш №22 скоро будет передан курьерской доставке!" image-url="/image 22.png"/>
                 
                 
