@@ -15,7 +15,7 @@
 
 <template>
         <div class="item_all">
-            <img @click="OnClickFavorite" class="item_all-svg" :src="!isFavorite ? '/like-1.svg' : '/like-2.svg'" alt="">
+            <img @click="OnClickFavorite" class="item_all-svg" :src="!isFavorite ? '/VueProject.github.io/like-1.svg' : '/VueProject.github.io/like-2.svg'" alt="">
             <img  :src="imageUrl" alt="">
             <p>{{title}}</p>
             <div class="item_all-bot">
@@ -28,7 +28,7 @@
                     </p>
                 </div>
                 <button>
-                    <img @click="OnClickAdd" :src="!isAdded ? '/plus.svg' : '/checked.svg'" alt="">
+                    <img @click="OnClickAdd" :src="!isAdded ? '/VueProject.github.io/plus.svg' : '/VueProject.github.io/checked.svg'" alt="">
                 </button>
             </div>
         </div>
