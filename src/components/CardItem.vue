@@ -46,7 +46,7 @@
     flex-direction: column;
     gap: 14px;
     position: relative;
-    transition: .3s;
+    transition: .4s;
 }
 .item_all:hover {
     transform: scale(1.1);
